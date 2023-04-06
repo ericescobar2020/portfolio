@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat:wght@300&family=Roboto:ital,wght@0,400;0,900;1,300&family=Ubuntu:wght@300;400;500;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* VAMOS A TRABAJAR CON LOS FONDOS DE CONTACTO, INDEX, PROYECTO, SOBRE MI */
+#contacto{
+    background-image: url("../images/fondo-contacto.png");
+    background-size: cover;
+    /* background-size: cover   "sirve para que toda la pantalla cobra la imagen fondo, quede centrado y sin espacios  " */
+}
+#proyectos {
+    background-image:url(../images/fondo-proyectos.png);
+    background-size: cover;
+}
+.nav-link{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+h1{ 
+  color:#E20000;
+}
+p{
+    color: #6a6a6a;
+
+}
+
+
+.btn{
+    color: #370a6d;
+    background-color: white;
+    /* background-color: white; */
+    border: none;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #370a6d;
+}
+/* averiguar como se utiliza el min-height */
+/* main{
+    min-height: 630px;
+} */
+
+#contacto footer{
+    color: rgb(255, 255, 255);
+}
+
+#contacto footer a{
+    color: white;
+}
+
+
+/* Redes sociales */
+#contacto footer .fa-github{
+    font-size: 30px;
+    color: white;
+}
+#contacto footer .fa-linkedin-in{
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+/* html proyecto */
+#proyectos footer{
+    color:#ff4a49;
+}
+
+#proyectos footer a{
+    color:#ff4a49;
+}
+#proyectos .fa-whatsapp{
+    color: white;
+}
+
+/* Redes sociales */
+#proyectos footer .fa-github{
+    font-size: 30px;
+    color:#ff4a49;
+}
+#proyectos footer .fa-linkedin-in{
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+
+.btn-whatsaap {
+    position: fixed;
+    background-color:#370a6d;
+    color: white;
+    width: 60px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    /* font-size: es para agrandar el icono de wha */
+    font-size: 30px; 
+
+    text-align: center;
+    padding: 8px 0 15px 0;
+    right:80px;
+   
+    bottom: 0px;
+}
+
+/* Vamos a trebajar con la nav*/
+.btn {
+    color: #370a6d;
+    background-color: white;
+    border: none;
+}
+.btn-rojo{
+    background-color: #E20000;
+    color: white;
+    font-weight: 100;
+    border-radius: 15px;}
+
+nav .active {
+    border: 1px solid #E20000;
+       border-radius: 20px;}
+
+
+
+/* Proyectos  */
+#proyectos h2{
+    
+        font-size: 16px;
+        text-transform: uppercase;
+        color: white;
+        padding: 0px;
+        margin: 0px;
+    
+}
+
+.color-gradiente{
+    background:linear-gradient(to right,  rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+}
+    
+/* Vamos a trabajar en el "codigo fuente" que seria la clase: link-rojo*/
+
+.link-rojo a{
+    color:red;
+    text-decoration: none;
+}
+
+/* img de fondo para el html;proyecto */
+
+#proyectos img {
+    height: 210px;
+}
+#proyectos .card p{
+    height: 90px;
+}
+.img-circle {
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;}
+
+
+/* vamos a trabajar con el footer */
+/* #proyectos footer .fa-github, #sobre-mi footer .fa-github {
+    font-size: 30px;
+    color: #E20000;
+}
+#proyectos footer .fa-linkedin-in {
+    color: white;
+    background-color: #E20000;
+}
+
+
+#proyectos footer a{
+    color: #E20000;
+}
+
+#proyectos .btn-whatsaap a{
+    color:white 
+} */
+
+
+/* Vamos a trabajr la parte de Inicio */
+#inicio {
+    background-image: url("../images/fondo-contacto.png");
+    background-size: cover;
+}
+
+#inicio .div-cohete{
+    height: 420px;
+}#inicio .cohete{
+    height: 450px;
+}
+#inicio .cohete:hover{
+    height: 410px;
+}
+#inicio .input-home p{
+    color:white;
+    font-size: 19px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 800;}
+/* /////////////////// */
+#inicio footer{
+    color: rgb(245, 245, 245);
+    padding-top:72px ;
+}
+
+#inicio footer a{
+    color: white;
+}
+
+
+/* Redes sociales */
+#inicio footer .fa-github{
+    font-size: 30px;
+    color: white;
+}
+#inicio footer .fa-linkedin-in{
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+/* esto pertenece al sobre-mi html */
+#sobre-mi, .foto-de-perfil{
+    border-radius: 600px;
+    height: 300px;
+}
+
+/* ////////////////// */
+@media (max-width: 750px) {
+    #contacto, #inicio{
+        background-image: url("../images/fondo-proyectos.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #proyectos{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+   
+    #inicio .input-home p{
+        color:#ff4a49;
+        font-size: 19px;
+        border: 1px solid #ff4a49;
+        border-radius: 50px;
+        font-weight: 800;}
+
+        #inicio footer .fa-github{
+            font-size: 30px;
+            color: #ff4a49;
+        }
+        #inicio footer .fa-linkedin-in{
+            color: white;
+            background-color: #ff4a49;
+            font-size: 20px;
+            border: 0px;
+            height: 32px;
+            width: 32px;
+            text-align: center;
+            padding: 8px 0 0 0;
+            border-radius: 80px;
+            margin: 0 8px;
+        }    
+}
